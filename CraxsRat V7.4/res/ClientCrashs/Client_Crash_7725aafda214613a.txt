@@ -1,0 +1,22 @@
+这是客户端（电话）发生的意外错误，请将此文件发送给开发人员 ( ) ( ) 来修复它
+------------------
+Error :Exception Message: length=1; index=1
+Stack Trace:
+java.lang.ArrayIndexOutOfBoundsException: length=1; index=1
+	at officer.hence.xmruayfkryefhwfbuxgfityibtxbehtfanatgmodrxcftkaxyl2.ClickUnlock.checkEvent(ClickUnlock.java:109)
+	at officer.hence.xmruayfkryefhwfbuxgfityibtxbehtfanatgmodrxcftkaxyl2.vbdiynsgwbfihuzmcoaoqodephsxchrlleskwxaccqhckggbdh3.AccessService.onAccessibilityEvent(AccessService.java:3274)
+	at android.accessibilityservice.AccessibilityService$2.onAccessibilityEvent(AccessibilityService.java:1449)
+	at android.accessibilityservice.AccessibilityService$IAccessibilityServiceClientWrapper.executeMessage(AccessibilityService.java:1585)
+	at com.android.internal.os.HandlerCaller$MyHandler.handleMessage(HandlerCaller.java:37)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:156)
+	at android.app.ActivityThread.main(ActivityThread.java:6623)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:942)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:832)
+
+Device Info:
+Device Manufacturer: HUAWEI
+Device Model: TRT-AL00
+Android Version: 7.0
+
