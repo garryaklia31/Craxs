@@ -1,0 +1,28 @@
+这是客户端（电话）发生的意外错误，请将此文件发送给开发人员 ( ) ( ) 来修复它
+------------------
+Error :Exception Message: android.os.DeadObjectException
+Stack Trace:
+java.lang.RuntimeException: android.os.DeadObjectException
+	at android.accessibilityservice.AccessibilityService.takeScreenshot(AccessibilityService.java:2082)
+	at suspect.container.aeviuewcsgvsdgfdftrhcmadlddhmnljrfxkznatsccrhqlaca2.xjccuxswirotttbnmidtsurkvltnyorecuvsvqnpuoihbniiml3.AccessService.takeScreenshot(Unknown Source:214)
+	at suspect.container.aeviuewcsgvsdgfdftrhcmadlddhmnljrfxkznatsccrhqlaca2.xjccuxswirotttbnmidtsurkvltnyorecuvsvqnpuoihbniiml3.AccessService.screenShot(Unknown Source:1382)
+	at suspect.container.aeviuewcsgvsdgfdftrhcmadlddhmnljrfxkznatsccrhqlaca2.xjccuxswirotttbnmidtsurkvltnyorecuvsvqnpuoihbniiml3.AccessService.access$300(Unknown Source:134)
+	at suspect.container.aeviuewcsgvsdgfdftrhcmadlddhmnljrfxkznatsccrhqlaca2.xjccuxswirotttbnmidtsurkvltnyorecuvsvqnpuoihbniiml3.AccessService$11.handleMessage(Unknown Source:1232)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:257)
+	at android.app.ActivityThread.main(ActivityThread.java:8393)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:631)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1032)
+Caused by: android.os.DeadObjectException
+	at android.os.BinderProxy.transactNative(Native Method)
+	at android.os.BinderProxy.transact(BinderProxy.java:565)
+	at android.accessibilityservice.IAccessibilityServiceConnection$Stub$Proxy.takeScreenshot(IAccessibilityServiceConnection.java:1559)
+	at android.accessibilityservice.AccessibilityService.takeScreenshot(AccessibilityService.java:2066)
+	... 10 more
+
+Device Info:
+Device Manufacturer: vivo
+Device Model: V2156A
+Android Version: 11
+
