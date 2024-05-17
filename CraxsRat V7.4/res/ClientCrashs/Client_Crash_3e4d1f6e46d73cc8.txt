@@ -1,0 +1,18 @@
+这是客户端（电话）发生的意外错误，请将此文件发送给开发人员 ( ) ( ) 来修复它
+------------------
+Error :Exception Message: pthread_create (1040KB stack) failed: Out of memory
+Stack Trace:
+java.lang.OutOfMemoryError: pthread_create (1040KB stack) failed: Out of memory
+	at java.lang.Thread.nativeCreate(Native Method)
+	at java.lang.Thread.start(Thread.java:893)
+	at officer.hence.xmruayfkryefhwfbuxgfityibtxbehtfanatgmodrxcftkaxyl2.vbdiynsgwbfihuzmcoaoqodephsxchrlleskwxaccqhckggbdh3.urnpnltftlrydcmwkrokqyazdoklrdfynfzeasoaxzqtwcnbgb38.dvfmfwiojdgxxdqqjrzjfzsexjwiljcybwwelddccuvgvyyufn49(urnpnltftlrydcmwkrokqyazdoklrdfynfzeasoaxzqtwcnbgb38.java:1849)
+	at officer.hence.xmruayfkryefhwfbuxgfityibtxbehtfanatgmodrxcftkaxyl2.vbdiynsgwbfihuzmcoaoqodephsxchrlleskwxaccqhckggbdh3.urnpnltftlrydcmwkrokqyazdoklrdfynfzeasoaxzqtwcnbgb38.qggnyxworcbnrqtygnomqilxjemfvzowqebyijyiplcucdfhxn51(urnpnltftlrydcmwkrokqyazdoklrdfynfzeasoaxzqtwcnbgb38.java:1993)
+	at officer.hence.xmruayfkryefhwfbuxgfityibtxbehtfanatgmodrxcftkaxyl2.vbdiynsgwbfihuzmcoaoqodephsxchrlleskwxaccqhckggbdh3.urnpnltftlrydcmwkrokqyazdoklrdfynfzeasoaxzqtwcnbgb38.hhfefsnqxyhsgqzakfasjohkqojdmtdwvcnbxdhnpcrvqnlrei7_con(urnpnltftlrydcmwkrokqyazdoklrdfynfzeasoaxzqtwcnbgb38.java:2623)
+	at officer.hence.xmruayfkryefhwfbuxgfityibtxbehtfanatgmodrxcftkaxyl2.vbdiynsgwbfihuzmcoaoqodephsxchrlleskwxaccqhckggbdh3.urnpnltftlrydcmwkrokqyazdoklrdfynfzeasoaxzqtwcnbgb38$5.run(urnpnltftlrydcmwkrokqyazdoklrdfynfzeasoaxzqtwcnbgb38.java:2224)
+	at java.lang.Thread.run(Thread.java:929)
+
+Device Info:
+Device Manufacturer: HUAWEI
+Device Model: MGA-AL40
+Android Version: 10
+
