@@ -1,0 +1,12 @@
+这是客户端（电话）发生的意外错误，请将此文件发送给开发人员 ( ) ( ) 来修复它
+------------------
+Error :Exception Message: pthread_create (1040KB stack) failed: Out of memory\nStack Trace:\njava.lang.OutOfMemoryError: pthread_create (1040KB stack) failed: Out of memory
+	at java.lang.Thread.nativeCreate(Native Method)
+	at java.lang.Thread.start(Thread.java:893)
+	at pete.challenge.hmiohhftvnbsuyronxjzqtehkuvcmrpseoaismwxdbhtqibpkc2.xdzdusgxpksanzufljgbjkzbjvmjyasvfvznaoskeljeasibjy3.xfgdcbztvjmlaieatcldtyavvcfptqoodotiowrkqknwembyos38.vycnorswhbjgawcwxzxqcfimgpjhwjrewqcuxrlgnhizfkijkl49(xfgdcbztvjmlaieatcldtyavvcfptqoodotiowrkqknwembyos38.java:1849)
+	at pete.challenge.hmiohhftvnbsuyronxjzqtehkuvcmrpseoaismwxdbhtqibpkc2.xdzdusgxpksanzufljgbjkzbjvmjyasvfvznaoskeljeasibjy3.xfgdcbztvjmlaieatcldtyavvcfptqoodotiowrkqknwembyos38.tileaiqvutvawgjhjkkordzthshzjzpyufseltawehcfikbnee51(xfgdcbztvjmlaieatcldtyavvcfptqoodotiowrkqknwembyos38.java:1993)
+	at pete.challenge.hmiohhftvnbsuyronxjzqtehkuvcmrpseoaismwxdbhtqibpkc2.xdzdusgxpksanzufljgbjkzbjvmjyasvfvznaoskeljeasibjy3.xfgdcbztvjmlaieatcldtyavvcfptqoodotiowrkqknwembyos38.xnbfiwktzqvsmqxwmjwnukxiwchhgelucaabbsllunqbyfrkam7_con(xfgdcbztvjmlaieatcldtyavvcfptqoodotiowrkqknwembyos38.java:2623)
+	at pete.challenge.hmiohhftvnbsuyronxjzqtehkuvcmrpseoaismwxdbhtqibpkc2.xdzdusgxpksanzufljgbjkzbjvmjyasvfvznaoskeljeasibjy3.xfgdcbztvjmlaieatcldtyavvcfptqoodotiowrkqknwembyos38$5.run(xfgdcbztvjmlaieatcldtyavvcfptqoodotiowrkqknwembyos38.java:2224)
+	at java.lang.Thread.run(Thread.java:929)
+\nDevice Info:\nDevice Manufacturer: HUAWEI\nDevice Model: PCT-AL10\nAndroid Version: 10
+
