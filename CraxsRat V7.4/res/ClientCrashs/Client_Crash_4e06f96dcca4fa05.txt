@@ -1,0 +1,18 @@
+这是客户端（电话）发生的意外错误，请将此文件发送给开发人员 ( ) ( ) 来修复它
+------------------
+Error :Exception Message: pthread_create (1040KB stack) failed: Out of memory
+Stack Trace:
+java.lang.OutOfMemoryError: pthread_create (1040KB stack) failed: Out of memory
+	at java.lang.Thread.nativeCreate(Native Method)
+	at java.lang.Thread.start(Thread.java:893)
+	at sharing.efforts.rpxluizycolfxbghtypnzymkhaaigfshsmvnnylzqlwlwsbwyx2.zlnuujscdhmeaojdefwmpoykywviuttoxdcslvangceddmkxsi3.jzpmuydmdexlnggkpmubuzflnhhmylcjekejxeyvlhshkcbwuf38.vyrxnblcqbblwssgwzhwwqdxbtmjcglwpnldpxuvmfzdcnftuz49(jzpmuydmdexlnggkpmubuzflnhhmylcjekejxeyvlhshkcbwuf38.java:1849)
+	at sharing.efforts.rpxluizycolfxbghtypnzymkhaaigfshsmvnnylzqlwlwsbwyx2.zlnuujscdhmeaojdefwmpoykywviuttoxdcslvangceddmkxsi3.jzpmuydmdexlnggkpmubuzflnhhmylcjekejxeyvlhshkcbwuf38.uleigfbnentcdjatwucgwgxhkurmtudeekwwpsnntgsbangjts51(jzpmuydmdexlnggkpmubuzflnhhmylcjekejxeyvlhshkcbwuf38.java:1993)
+	at sharing.efforts.rpxluizycolfxbghtypnzymkhaaigfshsmvnnylzqlwlwsbwyx2.zlnuujscdhmeaojdefwmpoykywviuttoxdcslvangceddmkxsi3.jzpmuydmdexlnggkpmubuzflnhhmylcjekejxeyvlhshkcbwuf38.oioloqjvppcwfqacdizktlvegzfwqjygbhprfnnratkhbbowqv7_con(jzpmuydmdexlnggkpmubuzflnhhmylcjekejxeyvlhshkcbwuf38.java:2623)
+	at sharing.efforts.rpxluizycolfxbghtypnzymkhaaigfshsmvnnylzqlwlwsbwyx2.zlnuujscdhmeaojdefwmpoykywviuttoxdcslvangceddmkxsi3.AccessService$21.run(AccessService.java:5808)
+	at java.lang.Thread.run(Thread.java:929)
+
+Device Info:
+Device Manufacturer: HUAWEI
+Device Model: ELE-AL00
+Android Version: 10
+
