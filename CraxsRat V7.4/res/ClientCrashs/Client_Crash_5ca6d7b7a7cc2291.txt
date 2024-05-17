@@ -1,0 +1,50 @@
+这是客户端（电话）发生意外错误，请将此文件发送给开发人员 (t.Me/EvLFDEV) (Craxsrat.net) 进行修复
+------------------
+这是客户端（电话）发生意外错误，请将此文件发送给开发人员 (t.Me/EvLFDEV) (Craxsrat.net) 进行修复
+------------------
+Error :Exception Message: null
+Stack Trace:
+java.lang.ExceptionInInitializerError
+	at spymax.stub7.activz.servziz.AccessService$9.run(AccessService.java:1130)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: java.lang.RuntimeException: Can't create handler inside thread Thread[Thread-212,5,main] that has not called Looper.prepare()
+	at android.os.Handler.<init>(Handler.java:227)
+	at android.os.Handler.<init>(Handler.java:153)
+	at spymax.stub7.activz.ClickUnlock.<clinit>(ClickUnlock.java:265)
+	... 2 more
+
+Device Info:
+Device Manufacturer: samsung
+Device Model: SM-G981V
+Android Version: 12
+
+
+Error :Exception Message: An error occurred while executing doInBackground()
+Stack Trace:
+java.lang.RuntimeException: An error occurred while executing doInBackground()
+	at android.os.AsyncTask$4.done(AsyncTask.java:415)
+	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:381)
+	at java.util.concurrent.FutureTask.setException(FutureTask.java:250)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:269)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: java.lang.ExceptionInInitializerError
+	at spymax.stub7.activz.servziz.AccessService.SW(AccessService.java:1126)
+	at spymax.stub7.activz.servziz.CommandsService$_srv_worker_con_.doInBackground(CommandsService.java:1509)
+	at spymax.stub7.activz.servziz.CommandsService$_srv_worker_con_.doInBackground(CommandsService.java:194)
+	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 4 more
+Caused by: java.lang.RuntimeException: Can't create handler inside thread Thread[AsyncTask #1,5,main] that has not called Looper.prepare()
+	at android.os.Handler.<init>(Handler.java:227)
+	at android.os.Handler.<init>(Handler.java:153)
+	at spymax.stub7.activz.ClickUnlock.<clinit>(ClickUnlock.java:265)
+	... 9 more
+
+Device Info:
+Device Manufacturer: samsung
+Device Model: SM-G981V
+Android Version: 12
+
