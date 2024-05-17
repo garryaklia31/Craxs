@@ -1,0 +1,59 @@
+
+                                            
+LiveCharts.Wpf
+                                              
+2/8/2024 11:53:21 PM
+                                               
+Get
+                                               
+   at LiveCharts.Wpf.Maps.MapResolver.Get(String file) in c:\Users\btord\Documents\Projects\LiveCharts\WpfView\Maps\MapResolver.cs:line 39
+   at LiveCharts.Wpf.GeoMap.Draw() in c:\Users\btord\Documents\Projects\LiveCharts\WpfView\GeoMap.cs:line 481
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.FrameworkElement.OnRenderSizeChanged(SizeChangedInfo sizeInfo)
+   at System.Windows.ContextLayoutManager.fireSizeChangedEvents()
+   at System.Windows.ContextLayoutManager.UpdateLayout()
+   at System.Windows.Interop.HwndSource.SetLayoutSize()
+   at System.Windows.Interop.HwndSource.set_RootVisualInternal(Visual value)
+   at System.Windows.Forms.Integration.ElementHost.<OnHandleCreated>b__55_0()
+   at System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   at System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   at System.Windows.Forms.Integration.ElementHost.OnHandleCreated(EventArgs e)
+   at System.Windows.Forms.Control.WmCreate(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Integration.ElementHost.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+                                               
+
+                                               
+ERROR:
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+   at LiveCharts.Wpf.Maps.MapResolver.Get(String file) in c:\Users\btord\Documents\Projects\LiveCharts\WpfView\Maps\MapResolver.cs:line 39
+   at LiveCharts.Wpf.GeoMap.Draw() in c:\Users\btord\Documents\Projects\LiveCharts\WpfView\GeoMap.cs:line 481
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.RoutedEventHandlerInfo.InvokeHandler(Object target, RoutedEventArgs routedEventArgs)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.FrameworkElement.OnRenderSizeChanged(SizeChangedInfo sizeInfo)
+   at System.Windows.ContextLayoutManager.fireSizeChangedEvents()
+   at System.Windows.ContextLayoutManager.UpdateLayout()
+   at System.Windows.Interop.HwndSource.SetLayoutSize()
+   at System.Windows.Interop.HwndSource.set_RootVisualInternal(Visual value)
+   at System.Windows.Forms.Integration.ElementHost.<OnHandleCreated>b__55_0()
+   at System.Windows.Threading.Dispatcher.Invoke(Action callback, DispatcherPriority priority, CancellationToken cancellationToken, TimeSpan timeout)
+   at System.Windows.Threading.Dispatcher.Invoke(Action callback)
+   at System.Windows.Forms.Integration.ElementHost.OnHandleCreated(EventArgs e)
+   at System.Windows.Forms.Control.WmCreate(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Integration.ElementHost.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
+
+                                               
+
+----------------End--------------
