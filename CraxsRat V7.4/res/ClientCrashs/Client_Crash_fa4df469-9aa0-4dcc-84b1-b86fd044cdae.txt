@@ -1,0 +1,45 @@
+这是客户端（电话）发生的意外错误，请将此文件发送给开发人员 ( ) ( ) 来修复它
+------------------
+Error :Exception Message: Path bounds must not be negative
+Stack Trace:
+java.lang.IllegalArgumentException: Path bounds must not be negative
+	at com.android.internal.util.Preconditions.checkArgument(Preconditions.java:52)
+	at android.accessibilityservice.GestureDescription$StrokeDescription.<init>(GestureDescription.java:289)
+	at household.flows.tqztgjrwvvsamkfozrqzvxwdgmjlsaoxtolrqckknojxruenfj2.RecordScreenUtil.mockGesture(RecordScreenUtil.java:137)
+	at household.flows.tqztgjrwvvsamkfozrqzvxwdgmjlsaoxtolrqckknojxruenfj2.RecordScreenUtil.lambda$initFrameLayoutListener$0(RecordScreenUtil.java:90)
+	at household.flows.tqztgjrwvvsamkfozrqzvxwdgmjlsaoxtolrqckknojxruenfj2.RecordScreenUtil$$ExternalSyntheticLambda0.onTouch(Unknown Source:0)
+	at android.view.View.dispatchTouchEvent(View.java:14477)
+	at android.view.ViewGroup.dispatchTransformedTouchEvent(ViewGroup.java:3139)
+	at android.view.ViewGroup.dispatchTouchEvent(ViewGroup.java:2799)
+	at android.view.View.dispatchPointerEvent(View.java:14747)
+	at android.view.ViewRootImpl$ViewPostImeInputStage.processPointerEvent(ViewRootImpl.java:6603)
+	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:6380)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:5810)
+	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:5874)
+	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:5833)
+	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:6019)
+	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:5841)
+	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:6076)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:5814)
+	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:5874)
+	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:5833)
+	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:5841)
+	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:5814)
+	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:8746)
+	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:8697)
+	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:8649)
+	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:8890)
+	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:221)
+	at android.os.MessageQueue.nativePollOnce(Native Method)
+	at android.os.MessageQueue.next(MessageQueue.java:339)
+	at android.os.Looper.loop(Looper.java:199)
+	at android.app.ActivityThread.main(ActivityThread.java:8288)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:612)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1006)
+
+Device Info:
+Device Manufacturer: OPPO
+Device Model: PDVM00
+Android Version: 11
+
