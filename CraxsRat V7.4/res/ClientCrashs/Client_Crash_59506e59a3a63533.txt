@@ -1,0 +1,21 @@
+这是客户端（电话）发生意外错误，请将此文件发送给开发人员 (t.me/EvLF_DEV) (t.me/EvLF_DEV) 进行修复
+------------------
+Error :Exception Message: Attempt to invoke virtual method 'boolean java.util.LinkedList.isEmpty()' on a null object reference
+Stack Trace:
+java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.util.LinkedList.isEmpty()' on a null object reference
+	at spelling.rent.ovlznxrjbokvaxebzpkobyjtlnoxzjcsgkvmopozknyrmqfbcz2.PerformGestureUtil.mockGesture(PerformGestureUtil.java:53)
+	at spelling.rent.ovlznxrjbokvaxebzpkobyjtlnoxzjcsgkvmopozknyrmqfbcz2.PerformGestureUtil.access$000(PerformGestureUtil.java:21)
+	at spelling.rent.ovlznxrjbokvaxebzpkobyjtlnoxzjcsgkvmopozknyrmqfbcz2.PerformGestureUtil$2.handleMessage(PerformGestureUtil.java:121)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loopOnce(Looper.java:233)
+	at android.os.Looper.loop(Looper.java:344)
+	at android.app.ActivityThread.main(ActivityThread.java:8205)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:589)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1071)
+
+Device Info:
+Device Manufacturer: OPPO
+Device Model: PDYM20
+Android Version: 12
+
