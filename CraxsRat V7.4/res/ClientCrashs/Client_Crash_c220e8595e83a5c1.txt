@@ -1,0 +1,55 @@
+这是客户端（电话）发生的意外错误，请将此文件发送给开发人员 ( ) ( ) 来修复它
+------------------
+这是客户端（电话）发生的意外错误，请将此文件发送给开发人员 ( ) ( ) 来修复它
+------------------
+Error :Exception Message: Attempt to invoke interface method 'void android.view.ViewParent.requestTransparentRegion(android.view.View)' on a null object reference
+Stack Trace:
+java.lang.NullPointerException: Attempt to invoke interface method 'void android.view.ViewParent.requestTransparentRegion(android.view.View)' on a null object reference
+	at android.view.SurfaceView.onAttachedToWindow(SurfaceView.java:346)
+	at android.view.View.dispatchAttachedToWindow(View.java:20777)
+	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2806)
+	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2286)
+	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8899)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1137)
+	at android.view.Choreographer.doCallbacks(Choreographer.java:951)
+	at android.view.Choreographer.doFrame(Choreographer.java:877)
+	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1122)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:257)
+	at android.app.ActivityThread.main(ActivityThread.java:8401)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:631)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1032)
+
+Device Info:
+Device Manufacturer: vivo
+Device Model: V2168A
+Android Version: 11
+
+
+Error :Exception Message: Attempt to invoke interface method 'void android.view.ViewParent.requestTransparentRegion(android.view.View)' on a null object reference
+Stack Trace:
+java.lang.NullPointerException: Attempt to invoke interface method 'void android.view.ViewParent.requestTransparentRegion(android.view.View)' on a null object reference
+	at android.view.SurfaceView.onAttachedToWindow(SurfaceView.java:346)
+	at android.view.View.dispatchAttachedToWindow(View.java:20777)
+	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2806)
+	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2286)
+	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:8899)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1137)
+	at android.view.Choreographer.doCallbacks(Choreographer.java:951)
+	at android.view.Choreographer.doFrame(Choreographer.java:877)
+	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1122)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:257)
+	at android.app.ActivityThread.main(ActivityThread.java:8401)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:631)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1032)
+
+Device Info:
+Device Manufacturer: vivo
+Device Model: V2168A
+Android Version: 11
+
