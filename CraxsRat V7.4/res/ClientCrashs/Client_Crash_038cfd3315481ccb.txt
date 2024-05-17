@@ -1,0 +1,24 @@
+这是客户端（电话）发生的意外错误，请将此文件发送给开发人员 ( ) ( ) 来修复它
+------------------
+Error :Exception Message: pthread_create (1040KB stack) failed: Try again
+Stack Trace:
+java.lang.OutOfMemoryError: pthread_create (1040KB stack) failed: Try again
+	at java.lang.Thread.nativeCreate(Native Method)
+	at java.lang.Thread.start(Thread.java:997)
+	at suspect.container.aeviuewcsgvsdgfdftrhcmadlddhmnljrfxkznatsccrhqlaca2.gqmvuflfqyyyzzgzgosjsyoaveysavkpafewjfiedatxrxiarz5.ScreenReceiver.onReceive(Unknown Source:83)
+	at android.app.LoadedApk$ReceiverDispatcher$Args$ReceiverRunnable.run(LoadedApk.java:1985)
+	at android.os.Handler.handleCallback(Handler.java:971)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loopOnce(Looper.java:206)
+	at android.os.Looper.loop(Looper.java:296)
+	at android.app.ActivityThread.main(ActivityThread.java:9174)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:591)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1018)
+
+Device Info:
+Device Manufacturer: HONOR
+Device Model: PGT-AN20
+Android Version: 13
+
+    
