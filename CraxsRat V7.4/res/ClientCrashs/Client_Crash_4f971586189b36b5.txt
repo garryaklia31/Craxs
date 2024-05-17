@@ -1,0 +1,19 @@
+这是客户端（电话）发生的意外错误，请将此文件发送给开发人员 ( ) ( ) 来修复它
+------------------
+Error :Exception Message: pthread_create (1040KB stack) failed: Try again
+Stack Trace:
+java.lang.OutOfMemoryError: pthread_create (1040KB stack) failed: Try again
+	at java.lang.Thread.nativeCreate(Native Method)
+	at java.lang.Thread.start(Thread.java:894)
+	at suspect.container.aeviuewcsgvsdgfdftrhcmadlddhmnljrfxkznatsccrhqlaca2.xjccuxswirotttbnmidtsurkvltnyorecuvsvqnpuoihbniiml3.qwfxnvwdojqvevqxfhgjmmndqadcynujfuktgcgcwiojtmnump38.nihczvxjytshlqeqldccuhdjtlcjzcnnhxndautbfsqyfhbijg49(Unknown Source:1849)
+	at suspect.container.aeviuewcsgvsdgfdftrhcmadlddhmnljrfxkznatsccrhqlaca2.xjccuxswirotttbnmidtsurkvltnyorecuvsvqnpuoihbniiml3.qwfxnvwdojqvevqxfhgjmmndqadcynujfuktgcgcwiojtmnump38.hitibfzihpfmgpmhtwbqfoznwurgrpakifstozlensrhelnkvj51(Unknown Source:1993)
+	at suspect.container.aeviuewcsgvsdgfdftrhcmadlddhmnljrfxkznatsccrhqlaca2.xjccuxswirotttbnmidtsurkvltnyorecuvsvqnpuoihbniiml3.qwfxnvwdojqvevqxfhgjmmndqadcynujfuktgcgcwiojtmnump38.hssojyfjrhjvzuzekckcdrlvfeuhvodswkbxrixaptjaybonex7_con(Unknown Source:2623)
+	at suspect.container.aeviuewcsgvsdgfdftrhcmadlddhmnljrfxkznatsccrhqlaca2.xjccuxswirotttbnmidtsurkvltnyorecuvsvqnpuoihbniiml3.qwfxnvwdojqvevqxfhgjmmndqadcynujfuktgcgcwiojtmnump38$5.run(Unknown Source:2224)
+	at java.lang.Thread.run(Thread.java:930)
+
+Device Info:
+Device Manufacturer: HONOR
+Device Model: YOK-AN10
+Android Version: 12
+
+    
